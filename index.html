@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>TP2</title>
+
+    <!--css del lightbox-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+
+    <!--nuestro propio css-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="icon" sizes="220x220" href="Imagenes/LogoCA.jpg">
+
+</head>
+
+<body class="fondo">
+
+    <header>
+  <div class="animation"></div>
+         <h1 id="titulo">SELECCION DE PROYECTOS
+             <br> <span id="nombre">por Camila Acosta</span>  
+             <br> <span id="utdt">Estudiante de LED UTDT</span>
+            </h1>
+
+
+         <a id="boton" href="https://www.instagram.com/lab.acosta.c/">instagram</a>
+
+       
+
+     </header>
+
+       
+    
+         <main>
+        <div class="container"> <a href="Imagenes/Afiche MO.jpg" data-lightbox="galeria"><img src="Imagenes/Afiche MO.jpg" alt="Afiche Madero Oriental" class="image"></a>  
+            <div class="overlay">
+                <p class="text"> Afiche evento recorrido cultural</p>
+            </div>
+        </div>
+
+        <div class="container"><a class href="Imagenes/Afiche MB.jpg" data-lightbox="galeria"><img src="Imagenes/Afiche MB.jpg" alt="Afiche metabiotic" class="image"></a>
+            <div class="overlay">
+                <p class="text"> Afiche expo de indumentaria</p>
+            </div>
+        </div>
+
+        <div class="container"><a href="Imagenes/Carta display.jpg" data-lightbox="galeria"><img src="Imagenes/Carta display.jpg" alt="Carta display" class="image"></a>
+            <div class="overlay">
+                <p class="text">  Introducción a forma y color: Composición n°2</p>
+            </div>
+        </div>
+        
+        <video src="Imagenes/Densidad.mp4" autoplay muted controls></video> 
+        
+        </main>
+
+        <footer> <h1 id="pie">¡Gracias por ver!</h1></footer>
+        <!--js de lightbox-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+        
+        <script>
+            lightbox.option({
+              'fadeDuration': 200,
+              'wrapAround': true
+            })
+        </script>
+</body>
+
+</html>
